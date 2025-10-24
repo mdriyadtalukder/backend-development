@@ -1,0 +1,15 @@
+{
+  "name": "2node_package_manager_",
+  "version": "1.0.0",
+  "description": "node package manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "author": "md riyad talukder",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
