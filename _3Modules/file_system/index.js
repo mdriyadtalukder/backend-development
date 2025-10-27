@@ -31,7 +31,7 @@ fs.writeFile(asyncFilePath, "asyc created", (err, data) => {
     fs.appendFile(asyncFilePath, "\nupdated file", (err, data) => {
       if (err) throw err;
       console.log("file created");
-      fs.readFile(asyncFilePath, "utf8", (data, updatedData) => {
+      fs.readFile(asyncFilePath, "utf8", (err, updatedData) => {
         if (err) throw err;
         console.log(updatedData);
       });
